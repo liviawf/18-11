@@ -1,0 +1,21 @@
+@import url(cabeçalho.css);
+@import url(informação_tod.css);
+@import url(sob_documentario.css);
+@import url(titulo_celular.css);
+@import url(titulo_computador.css);
+
+:root{
+   --imagem-de-fundo: url(fundo.png);
+   --fonte-principal: "Inter", sans-serif;
+   --branco:#FFFFFF;
+   --preto:#000000;
+   --vermelho:#FF0909;
+}
+
+body{
+    background-image: var(--imagem-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+
+}
